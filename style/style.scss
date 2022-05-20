@@ -1,0 +1,185 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Lora,serif;
+    font-size: 23px;
+    color: black;
+}
+.head
+{
+    display: flex;
+    height: 100vh;
+
+.left
+{
+ flex: 1 1;
+ align-items: center;
+justify-content: center;
+display: flex;
+.h-introbox
+{
+    margin: 2rem;
+    .h-intro
+    {
+        font-weight: 400;
+        font-size: 2rem;
+        word-spacing: 0.2rem;
+        margin-bottom: 1rem;
+    }
+    .h-name
+    {
+        @extend .h-intro;
+        font-size: 55px;
+        font-weight: 800;
+    }
+    .mqu{
+        font-size: 1.5rem;
+        margin-bottom: 2rem;
+        font-weight: 700;
+        color: rgb(253, 63, 186)
+    }
+    .i-desc
+    {
+        font-size: 1.2rem;
+        word-wrap: 0.5rem;
+    }
+}
+
+}
+.right
+{
+    @extend .left;
+    // position: relative;
+    margin-bottom: 0;
+    clip-path: polygon(100% 0,75% 50%,100% 100%,25% 100%,0 50%,25% 0);
+    background-color: tomato;
+    height: 100%;
+    .polygon
+    {
+        display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+
+    }
+    
+}
+.img-boy
+{
+    width: 85%;
+}
+
+}
+@media screen and(max-width:780px) {
+ .head
+ {
+    display: block;
+    height: 90%;
+
+ }
+}
+.cardbox
+{
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    min-height: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+    height: 100vh;
+    height: 100vh;
+
+    .c-left
+    {
+        // flex: 1 1;
+        width: 50%;
+        height: 60%;
+ 
+    }
+    .c-right
+    {
+      @extend .c-left;
+      padding: 40px;
+      .me
+      {
+        font-weight: 600;
+    font-family: "Rubik",sans-serif;
+    font-size: 40px;
+    margin-bottom: 15px;
+    
+      }
+      
+}
+}
+.img-card
+{
+    width: 100%;
+    height: auto;
+    border-radius: 30px;
+    overflow: hidden;
+    
+}
+.img-card-bg
+{
+    width: 30%;
+    height: 55%;
+    border-radius: 20px;
+    overflow: hidden;
+    position: absolute;
+    margin-left: 7%;
+    box-shadow: 32px 34px;
+}
+.card-img
+{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.social-btn
+{
+    display: flex;
+    width: 50%;
+.b-icon
+    {
+        width: 42px;
+        height: 42px;
+        margin: 25px;
+    }
+}
+.a-award-desc
+{
+    font-size: 1.2rem;
+}
+.MuiButton-root
+{
+    text-decoration: none;
+    margin-left: 20px;
+    margin-top: 0px;
+    color: black;
+    border-bottom: 5px solid rgb(0, 0, 0);
+}
+@media screen and(max-width:780px) {
+    .cardbox
+    {
+    display: block;
+    }
+    .cardbox .c-left, .cardbox .c-right {
+        width: 50%;
+        height: 70%;
+    }
+    .img-card-bg {
+        width: 77%;
+}
+.social-btn {
+    
+    display: flex;
+    width: 63%;
+    margin: 20px;
+}
+.social-btn .b-icon {
+    margin: 0px;
+}
+}
