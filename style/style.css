@@ -163,7 +163,7 @@
 .social-btn .b-icon {
   width: 42px;
   height: 42px;
-  margin: 25px;
+  margin: 11px;
 }
 
 .a-award-desc {
@@ -199,5 +199,195 @@
   .social-btn .b-icon {
     margin: 0px;
   }
+}
+
+.p1 {
+  padding: 50px 100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+}
+
+.p1 .pl-texts {
+  width: 65%;
+}
+
+.p1 .pl-texts .pl-title {
+  font-size: 30px;
+  font-weight: 600;
+}
+
+.p1 .pl-texts .pl-desc {
+  margin: 20px 0;
+}
+
+.p1 .p1-list {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.p1 .p1-list .p {
+  width: 30%;
+  height: 40vh;
+  margin: 20px 10px;
+  border: 2px solid #f3f2f2;
+  border-radius: 10px 10px 0 0;
+  overflow: hidden;
+}
+
+.p1 .p1-list .p .p-browser {
+  height: 25px;
+  background-color: #f3f2f2;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.p1 .p1-list .p .p-browser .p-circle {
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  margin: 3px;
+  background-color: #8b8585;
+}
+
+.p1 .p1-list .p .p-browser .p-title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-left: 17px;
+  font-size: 15px;
+  font-weight: 600;
+  color: #15212c;
+  font-family: "Lucida Sans","Lucida Sans Regular","Lucida Grande","Lucida Sans Unicode",Geneva,Verdana,sans-serif;
+}
+
+.p1 .p1-list .p .p-img {
+  width: 100%;
+  -webkit-transition: all 10s ease;
+  transition: all 10s ease;
+}
+
+.c {
+  height: 100vh;
+  position: relative;
+}
+
+.c .c-bg {
+  width: 25px;
+  height: 100%;
+  background-color: tomato;
+  position: absolute;
+}
+
+.c .c-wraper {
+  padding: 52px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.c .c-wraper .c-left, .c .c-wraper .cardbox .c-right, .cardbox .c .c-wraper .c-right {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1;
+          flex: 1 1;
+}
+
+.c .c-wraper .c-left .c-title, .c .c-wraper .cardbox .c-right .c-title, .cardbox .c .c-wraper .c-right .c-title {
+  font-size: 50px;
+  width: 70%;
+}
+
+.c .c-wraper .c-left .c-info-item, .c .c-wraper .cardbox .c-right .c-info-item, .cardbox .c .c-wraper .c-right .c-info-item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 18px 3px;
+  font-weight: 300;
+  font-family: "Rubik",sans-serif;
+  width: 60%;
+}
+
+.c .c-wraper .c-left .c-info-item .c-icon, .c .c-wraper .cardbox .c-right .c-info-item .c-icon, .cardbox .c .c-wraper .c-right .c-info-item .c-icon {
+  width: 30px;
+  height: 30px;
+  margin-right: 20px;
+}
+
+.c .c-wraper .c-right {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1;
+          flex: 1 1;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.c .c-wraper .c-right form {
+  margin-top: 20px;
+}
+
+.c .c-wraper .c-right form input {
+  width: 50%;
+  height: 40px;
+  border: none;
+  border-bottom: 2px solid grey;
+}
+
+.c .c-wraper .c-right form input, .c .c-wraper .c-right form textarea {
+  margin: 10px 0;
+  font-size: 17px;
+  padding-left: 12px;
+}
+
+.c .c-wraper .c-right form textarea {
+  width: 100%;
+}
+
+.c .c-wraper .c-right form button {
+  border: none;
+  background-color: tomato;
+  color: #fff;
+  font-weight: 500;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 4px;
 }
 /*# sourceMappingURL=style.css.map */
